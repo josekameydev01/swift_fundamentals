@@ -11,6 +11,7 @@ employee["job"]
 employee["location"]
 employee["age"]
 employee["age", default: "Unknown"]
+employee["age"] ?? "Unknown"
 
 var olympics = [String: Int]()
 olympics["London"] = 2012
